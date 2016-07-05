@@ -58,6 +58,7 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(39, 21);
             this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Visible = false;
             // 
             // 添加对象ToolStripMenuItem
             // 

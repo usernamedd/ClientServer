@@ -33,13 +33,16 @@
             this.添加对象ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.添加页面ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.表单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.系统配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.配置服务器ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.系统配置ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(589, 25);
@@ -74,6 +77,20 @@
             this.表单ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.表单ToolStripMenuItem.Text = "表单";
             // 
+            // 系统配置ToolStripMenuItem
+            // 
+            this.系统配置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.配置服务器ToolStripMenuItem});
+            this.系统配置ToolStripMenuItem.Name = "系统配置ToolStripMenuItem";
+            this.系统配置ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.系统配置ToolStripMenuItem.Text = "系统配置";
+            // 
+            // 配置服务器ToolStripMenuItem
+            // 
+            this.配置服务器ToolStripMenuItem.Name = "配置服务器ToolStripMenuItem";
+            this.配置服务器ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.配置服务器ToolStripMenuItem.Text = "配置服务器";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -97,6 +114,8 @@
         private System.Windows.Forms.ToolStripMenuItem 添加对象ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 添加页面ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 表单ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 系统配置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 配置服务器ToolStripMenuItem;
     }
 }
 
